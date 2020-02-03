@@ -1,28 +1,30 @@
 import React, { Component } from 'react';
 import './App.css';
 
-  class App extends Component {
+  class myApp extends Component {
 
     state = {
       number: 0,
-      likes: 'Likes'
+      likes: 'likes'
     }
     
     addLikes = () => {
-      this.setState = ({
+      console.log(this.state.number)
+      // this is the part of your code that is wrong
+      this.setState ({
         number: this.state.number + 1
       })
     }
 
     render() {
-    return(
+    return (
       <div className="App">
-        <button onClick={this.addLikes} className="button">{this.state.number} {this.state.likes}</button>
+        <button className="button" onClick={this.addLikes}>{this.state.number} {this.state.likes}</button>
       </div>
     )
   }
 }
 
-export default App;
+export default myApp;
   
 
