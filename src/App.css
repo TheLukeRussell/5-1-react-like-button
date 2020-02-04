@@ -9,4 +9,13 @@ body {
   position: relative;
   top: 300px;
   font-size: 20px;
+  outline: none;
+  border: none;
+}
+
+.button:active {
+  color: #ffffff;
+  background-color: #000000;
+  outline: none;
+  border: none;
 }
