@@ -1,7 +1,7 @@
 {
   "name": "react-like-button",
   "version": "0.1.0",
-  "homepage": "https://ccs-student-submissions.github.io/5-1-react-like-button-TheLukeRussell/",
+  "homepage": "https://thelukerussell.github.io/5-1-react-like-button/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
